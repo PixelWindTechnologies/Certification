@@ -70,7 +70,19 @@ body {
   flex-shrink: 0;
   letter-spacing: -1px;
 }
+.logo-img {
+  width: 45px;   /* increase size */
+  height: 45px;
+  object-fit: contain;
+}
 
+.logo-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent; /* remove blue */
+  margin-right: 10px;
+}
 .header-text { flex: 1; }
 .company-name {
   font-size: 18px;

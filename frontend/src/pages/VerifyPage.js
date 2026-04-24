@@ -36,9 +36,10 @@ export default function VerifyPage() {
     <div className="page-wrapper">
       <header className="header">
         <div className="header-inner">
-          <div className="logo-box"><FiAward size={22} color="white" /></div>
-          <div className="header-text">
-            <div className="company-name">PW Skills</div>
+<div className="logo-box">
+  <img src="/logo.ico" alt="logo" className="logo-img" />
+</div>          <div className="header-text">
+            <div className="company-name">PixelWind Technologies</div>
             <div className="portal-title">Certificate Verification Portal</div>
           </div>
           <div className="verified-badge-header">
@@ -92,7 +93,7 @@ export default function VerifyPage() {
 
       <footer className="footer">
         <FiShield size={13} style={{ marginRight: 6, verticalAlign: 'middle' }} />
-        This certificate is digitally verified by <strong> PW Skills (PhysicsWallah)</strong>
+        This certificate is digitally verified by <strong>PixelWind Technologies </strong>
         &nbsp;&middot;&nbsp; Lendi Institute of Engineering and Technology &nbsp;&middot;&nbsp; 2026
       </footer>
     </div>
@@ -114,7 +115,7 @@ function SuccessCard({ data, onReset }) {
         <div className="status-icon success"><FiCheckCircle size={28} /></div>
         <div className="result-header-text">
           <h2>Certificate Verified</h2>
-          <p>This is an authentic certificate issued by PW Skills</p>
+          <p>This is an authentic certificate issued by Pixelwind Technologies.</p>
         </div>
         <div className="verified-stamp">VERIFIED</div>
       </div>
@@ -136,7 +137,7 @@ function SuccessCard({ data, onReset }) {
         </div>
         <div className="cert-footer-row">
           <FiShield size={15} className="cert-shield" />
-          <span>Certificate status: <strong>VERIFIED &amp; AUTHENTIC</strong> &nbsp;&middot;&nbsp; Issued by PW Skills &nbsp;&middot;&nbsp; 2026</span>
+          <span>Certificate status: <strong>VERIFIED &amp; AUTHENTIC</strong> &nbsp;&middot;&nbsp; Issued by Pixelwind Technologies &nbsp;&middot;&nbsp; 2026</span>
         </div>
         <div style={{ marginTop: 20, textAlign: 'right' }}>
           <button onClick={onReset} className="btn-ghost"><FiArrowLeft size={14} style={{ marginRight: 6 }} />Verify Another</button>
@@ -158,7 +159,7 @@ function ErrorCard({ onReset }) {
       </div>
       <div className="error-body">
         <p>The Student ID you entered does not match any record in our database.<br />Please double-check the ID printed on your certificate.</p>
-        <p className="hint">If you believe this is an error, please contact PW Skills support.</p>
+        <p className="hint">If you believe this is an error, please contact PixelWind Technologies forsupport.</p>
         <div style={{ marginTop: 24 }}>
           <button onClick={onReset} className="btn-ghost"><FiArrowLeft size={14} style={{ marginRight: 6 }} />Try Again</button>
         </div>
