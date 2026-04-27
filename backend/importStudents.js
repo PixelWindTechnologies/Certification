@@ -21,7 +21,7 @@ const STUDENTS = [
   { student_id: 'PW/VSP/LENDI/IN/015', name: 'Addepalli Mohith Sai Vikramaditya Varma', father_name: 'Addepalli Rama Raju', internship_domain: 'Ethical Hacking' },
   { student_id: 'PW/VSP/LENDI/IN/016', name: 'Dadi Mounika', father_name: 'Dadi Jayababu', internship_domain: 'Ethical Hacking' },
   { student_id: 'PW/VSP/LENDI/IN/017', name: 'Gadipalli Bharathi', father_name: 'G. Appalanaidu', internship_domain: 'Ethical Hacking' },
-  { student_id: 'PW/VSP/LENDI/IN/018', name: 'Dondapathi Naresh', father_name: 'Donpathi Vasudeva Rao', internship_domain: 'Ethical Hacking' },
+  { student_id: 'PW/VSP/LENDI/IN/018', name: 'Dondapathi Naresh', father_name: 'Dondapathi Vasudeva Rao', internship_domain: 'Ethical Hacking' },
   { student_id: 'PW/VSP/LENDI/IN/019', name: 'Amjuri Sandeep', father_name: 'Amjuri Rambabu', internship_domain: 'Ethical Hacking' },
   { student_id: 'PW/VSP/LENDI/IN/020', name: 'B. Komal Kumar', father_name: 'B. Srinivasa Rao', internship_domain: 'Ethical Hacking' },
   { student_id: 'PW/VSP/LENDI/IN/021', name: 'Ganivada Vamsi', father_name: 'G. Ramakrishna', internship_domain: 'Ethical Hacking' },
@@ -32,7 +32,11 @@ const STUDENTS = [
   { student_id: 'PW/VSP/LENDI/IN/026', name: 'Kunisetti Hemanth', father_name: 'K. Srinivas Rao', internship_domain: 'Ethical Hacking' },
   { student_id: 'PW/VSP/LENDI/IN/027', name: 'Chelluri Lalitha Madhuri', father_name: 'Chelluri Srinivasa Rao', internship_domain: 'AWS IoT Cloud Engineering' },
   { student_id: 'PW/VSP/LENDI/IN/028', name: 'Gara Naga Sai Nareen', father_name: 'Gara Apparao', internship_domain: 'Business Analytics and Data Visualization' },
-  { student_id: 'PW/VSP/LENDI/IN/029', name: 'Bulli Tim Kumar', father_name: 'Bulli Appala Naidu', internship_domain: 'Google Data Analytics' },
+  { student_id: 'PW/VSP/LENDI/IN/029', name: 'Chelluri Lalitha Madhuri', father_name: 'Ch. Srinivasa rao', internship_domain: 'Ethical Hacking' },
+  { student_id: 'PW/VSP/LENDI/IN/030', name: 'Bheemisetty Gowtham', father_name: 'B. Siva Ganesh', internship_domain: 'Google Cloud Data Analytics' },
+  { student_id: 'PW/VSP/LENDI/IN/031', name: 'Gottapu Saikumar', father_name: 'G. Appalanaidu', internship_domain: 'Google Cloud Data Analytics' },
+  { student_id: 'PW/VSP/LENDI/IN/032', name: 'Kanduri V N Siri Vyshnavi', father_name: 'K V Ramprasad', internship_domain: 'Fullstack Java' },
+  { student_id: 'PW/VSP/LENDI/IN/033', name: 'Dantuluri Shanmukha Sai Jagan', father_name: 'D. Appala Raju', internship_domain: 'Google Cloud Data Analytics' },
 ];
 
 const COMMON = {
