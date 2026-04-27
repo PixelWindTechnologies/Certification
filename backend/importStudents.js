@@ -28,7 +28,7 @@ const STUDENTS = [
   { student_id: 'PW/VSP/LENDI/IN/022', name: 'Gorusu Balaji', father_name: 'G. Jagadeeswarao', internship_domain: 'Ethical Hacking' },
   { student_id: 'PW/VSP/LENDI/IN/023', name: 'Jahnavi Kuppiri', father_name: 'K. Lakshmi Prasanna Kumar', internship_domain: 'Ethical Hacking' },
   { student_id: 'PW/VSP/LENDI/IN/024', name: 'Mailapilli Reethu', father_name: 'M. Lakshman Rao', internship_domain: 'Ethical Hacking' },
-  { student_id: 'PW/VSP/LENDI/IN/025', name: 'Kanduri V N Vyashnavi', father_name: 'K.V. Rama Prasad', internship_domain: 'Ethical Hacking' },
+  { student_id: 'PW/VSP/LENDI/IN/025', name: 'Kanduri V N Vyshnavi', father_name: 'K.V. Rama Prasad', internship_domain: 'Ethical Hacking' },
   { student_id: 'PW/VSP/LENDI/IN/026', name: 'Kunisetti Hemanth', father_name: 'K. Srinivas Rao', internship_domain: 'Ethical Hacking' },
   { student_id: 'PW/VSP/LENDI/IN/027', name: 'Chelluri Lalitha Madhuri', father_name: 'Chelluri Srinivasa Rao', internship_domain: 'AWS IoT Cloud Engineering' },
   { student_id: 'PW/VSP/LENDI/IN/028', name: 'Gara Naga Sai Nareen', father_name: 'Gara Apparao', internship_domain: 'Business Analytics and Data Visualization' },
